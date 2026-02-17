@@ -1,18 +1,9 @@
-/**
- * planoContasSlice.js - Slice Redux para gestão do Plano de Contas
- * 
- * Gerencia o estado do plano de contas PGC-NIRF
- * Conforme Decreto 70/2009 de Moçambique
- * 
- * @module planoContasSlice
- */
-
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { planoContasInicial } from './planoContasData';
 
-// Estado inicial
+// Estado inicial baseado no PGC-NIRF
 const initialState = {
-  contas: [],
+  contas: planoContasInicial,
   status: 'idle', // 'idle' | 'loading' | 'succeeded' | 'failed'
   error: null,
   contaSelecionada: null,
@@ -27,29 +18,22 @@ const initialState = {
 export const fetchContas = createAsyncThunk(
   'planoContas/fetchContas',
   async () => {
-    // Tentar carregar do localStorage primeiro
-    try {
-      const saved = localStorage.getItem('planoContas');
-      if (saved) {
-        return JSON.parse(saved);
-      }
-    } catch (err) {
-      console.error('Erro ao carregar do localStorage:', err);
-    }
-    // Se não houver dados guardados, usar dados iniciais
-    return planoContasInicial;
+    // Simulação de API - depois substituir por chamada real
+    const response = await new Promise(resolve => 
+      setTimeout(() => resolve(planoContasInicial), 500)
+    );
+    return response;
   }
 );
 
 export const salvarConta = createAsyncThunk(
   'planoContas/salvarConta',
   async (conta) => {
-    // Simulação de API - em produção, seria uma chamada real
-    return new Promise(resolve => {
-      setTimeout(() => {
-        resolve(conta);
-      }, 300);
-    });
+    // Simulação de API
+    const response = await new Promise(resolve => 
+      setTimeout(() => resolve({...conta, id: Date.now()}), 300)
+    );
+    return response;
   }
 );
 
@@ -57,25 +41,19 @@ const planoContasSlice = createSlice({
   name: 'planoContas',
   initialState,
   reducers: {
-    // Selecionar conta para edição
+    // Ações síncronas
     setContaSelecionada: (state, action) => {
       state.contaSelecionada = action.payload;
     },
     
-    // Filtros
     setFiltroClasse: (state, action) => {
       state.filtro.classe = action.payload;
-    },
-    
-    setFiltroNatureza: (state, action) => {
-      state.filtro.natureza = action.payload;
     },
     
     setFiltroTexto: (state, action) => {
       state.filtro.texto = action.payload;
     },
     
-    // Operações CRUD
     adicionarConta: (state, action) => {
       const novaConta = {
         ...action.payload,
@@ -83,8 +61,6 @@ const planoContasSlice = createSlice({
         dataCriacao: new Date().toISOString()
       };
       state.contas.push(novaConta);
-      // Guardar no localStorage
-      localStorage.setItem('planoContas', JSON.stringify(state.contas));
     },
     
     atualizarConta: (state, action) => {
@@ -95,21 +71,16 @@ const planoContasSlice = createSlice({
           ...action.payload,
           dataAtualizacao: new Date().toISOString()
         };
-        // Guardar no localStorage
-        localStorage.setItem('planoContas', JSON.stringify(state.contas));
       }
     },
     
     removerConta: (state, action) => {
       state.contas = state.contas.filter(c => c.id !== action.payload);
-      // Guardar no localStorage
-      localStorage.setItem('planoContas', JSON.stringify(state.contas));
     },
     
     // Restaurar plano padrão PGC-NIRF
     restaurarPadrao: (state) => {
       state.contas = planoContasInicial;
-      localStorage.setItem('planoContas', JSON.stringify(planoContasInicial));
     }
   },
   extraReducers: (builder) => {
@@ -132,16 +103,14 @@ const planoContasSlice = createSlice({
         } else {
           state.contas[index] = action.payload;
         }
-        localStorage.setItem('planoContas', JSON.stringify(state.contas));
       });
   }
 });
 
-// Exportar ações
+// Exportar ações e reducer
 export const { 
   setContaSelecionada, 
   setFiltroClasse, 
-  setFiltroNatureza,
   setFiltroTexto,
   adicionarConta, 
   atualizarConta, 
@@ -153,10 +122,7 @@ export const {
 export const selectTodasContas = (state) => state.planoContas.contas;
 export const selectContaSelecionada = (state) => state.planoContas.contaSelecionada;
 export const selectStatus = (state) => state.planoContas.status;
-export const selectError = (state) => state.planoContas.error;
 export const selectFiltro = (state) => state.planoContas.filtro;
-
-// Selector com filtros aplicados
 export const selectContasFiltradas = (state) => {
   const { contas, filtro } = state.planoContas;
   return contas.filter(conta => {
@@ -165,13 +131,13 @@ export const selectContasFiltradas = (state) => {
     const matchTexto = !filtro.texto || 
       conta.codigo.toLowerCase().includes(filtro.texto.toLowerCase()) ||
       conta.nome.toLowerCase().includes(filtro.texto.toLowerCase()) ||
-      (conta.descricao && conta.descricao.toLowerCase().includes(filtro.texto.toLowerCase()));
+      conta.descricao.toLowerCase().includes(filtro.texto.toLowerCase());
     
     return matchClasse && matchNatureza && matchTexto;
   });
 };
 
-// Selector para contas por classe
+// Exportar por classe conforme PGC-NIRF
 export const selectContasPorClasse = (state) => {
   const contas = state.planoContas.contas;
   return {

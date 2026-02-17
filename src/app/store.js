@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import planoContasReducer from '../features/PlanoContas/planoContasSlice';
+import planoContasReducer from '../features/planoContas/planoContasSlice';
 
 export const store = configureStore({
   reducer: {

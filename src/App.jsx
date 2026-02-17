@@ -1,79 +1,151 @@
-/**
- * App.jsx - Componente Principal
- * 
- * Mantém a estrutura do projeto e adiciona autenticação
- */
-
 import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './app/store';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
-import RouteGuard from './components/RouteGuard';
-import LoginPage from './pages/LoginPage';
-import PlanoContasPage from './pages/PlanoContasPage';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './auth/AuthContext';
+import { ConfigProvider } from './context/ConfigContext';
+import ProtectedRoute from './auth/ProtectedRoute';
+import LoginPage from './auth/LoginPage';
+import Header from './components/layout/Header';
+import Sidebar from './components/layout/Sidebar';
 
+// Importe as páginas principais
+import DashboardPage from './pages/DashboardPage';
+import InvoicesPage from './pages/InvoicesPage';
+import AccountingPage from './pages/AccountingPage';
+import ClientsPage from './pages/ClientsPage';
+import SuppliersPage from './pages/SuppliersPage';
+import ConfiguracoesSistema from './pages/ConfiguracoesSistema';
+import AdminPage from './pages/AdminPage';
+import PerfilPage from './pages/PerfilPage';
+
+// Layout padrão para páginas protegidas
+const ProtectedLayout = ({ children }) => {
+  return (
+    <div className="d-flex flex-column vh-100">
+      <Header />
+      <div className="d-flex flex-grow-1 overflow-hidden">
+        <div className="sidebar-container">
+          <Sidebar />
+        </div>
+        <main className="main-content flex-grow-1 overflow-auto">
+          <div className="container-fluid py-4">
+            {children}
+          </div>
+        </main>
+      </div>
+    </div>
+  );
+};
+
+// Componente principal das rotas
+const AppRoutes = () => {
+  return (
+    <Routes>
+      {/* Rota pública - Login */}
+      <Route path="/login" element={<LoginPage />} />
+      
+      {/* Rota raiz - Redireciona para dashboard se autenticado */}
+      <Route path="/" element={
+        <ProtectedRoute>
+          <Navigate to="/dashboard" replace />
+        </ProtectedRoute>
+      } />
+      
+      {/* ROTAS PRINCIPAIS */}
+      <Route path="/dashboard" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <DashboardPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/faturacao" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <InvoicesPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/contabilidade" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <AccountingPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/clientes" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <ClientsPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/fornecedores" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <SuppliersPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/configuracoes" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <ConfiguracoesSistema />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/admin" element={
+        <ProtectedRoute requiredLevel={1}>
+          <ProtectedLayout>
+            <AdminPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      <Route path="/perfil" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <PerfilPage />
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+      
+      {/* Rota 404 - Página não encontrada */}
+      <Route path="*" element={
+        <ProtectedRoute>
+          <ProtectedLayout>
+            <div className="text-center py-5">
+              <h1 className="display-1 text-muted">404</h1>
+              <h3 className="mb-3">Página não encontrada</h3>
+              <p className="text-muted mb-4">
+                A página que procura não existe ou foi movida.
+              </p>
+              <a href="/" className="btn btn-primary">
+                <i className="bi bi-house me-1"></i> Voltar ao Dashboard
+              </a>
+            </div>
+          </ProtectedLayout>
+        </ProtectedRoute>
+      } />
+    </Routes>
+  );
+};
+
+// App principal
 function App() {
   return (
-    <Provider store={store}>
+    <Router>
       <AuthProvider>
-        <BrowserRouter>
-          <div className="App">
-            <Routes>
-              {/* Rota pública */}
-              <Route path="/login" element={<LoginPage />} />
-              
-              {/* Rotas protegidas */}
-              <Route path="/" element={
-                <RouteGuard requiredModule="planoContas" requiredAction="ver">
-                  <PlanoContasPage />
-                </RouteGuard>
-              } />
-              
-              <Route path="/lancamentos" element={
-                <RouteGuard requiredModule="lancamentos" requiredAction="ver">
-                  <div className="p-8 text-center">
-                    <h1 className="text-2xl font-bold mb-4">Módulo de Lançamentos</h1>
-                    <p className="text-gray-600">Em desenvolvimento conforme NCRF 1</p>
-                  </div>
-                </RouteGuard>
-              } />
-              
-              <Route path="/terceiros" element={
-                <RouteGuard requiredModule="terceiros" requiredAction="ver">
-                  <div className="p-8 text-center">
-                    <h1 className="text-2xl font-bold mb-4">Cadastro de Terceiros</h1>
-                    <p className="text-gray-600">Em desenvolvimento</p>
-                  </div>
-                </RouteGuard>
-              } />
-              
-              <Route path="/documentos" element={
-                <RouteGuard requiredModule="documentos" requiredAction="ver">
-                  <div className="p-8 text-center">
-                    <h1 className="text-2xl font-bold mb-4">Séries de Documentos</h1>
-                    <p className="text-gray-600">Em desenvolvimento</p>
-                  </div>
-                </RouteGuard>
-              } />
-              
-              <Route path="/relatorios" element={
-                <RouteGuard requiredModule="relatorios" requiredAction="ver">
-                  <div className="p-8 text-center">
-                    <h1 className="text-2xl font-bold mb-4">Relatórios Financeiros</h1>
-                    <p className="text-gray-600">Em desenvolvimento</p>
-                  </div>
-                </RouteGuard>
-              } />
-              
-              {/* Redirecionamento padrão */}
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </div>
-        </BrowserRouter>
+        <ConfigProvider>
+          <AppRoutes />
+        </ConfigProvider>
       </AuthProvider>
-    </Provider>
+    </Router>
   );
 }
 

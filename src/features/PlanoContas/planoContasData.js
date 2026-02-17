@@ -1,14 +1,6 @@
-/**
- * planoContasData.js - Dados iniciais do Plano de Contas PGC-NIRF
- * 
- * Plano de Contas completo conforme Decreto 70/2009 de Moçambique
- * Classes 1 a 5 do PGC-NIRF
- * 
- * @module planoContasData
- */
-
+// Estrutura baseada no PGC-NIRF - Decreto 70/2009 de Moçambique
 export const planoContasInicial = [
-  // ============ CLASSE 1: ATIVOS (Art. 47-56) ============
+  // CLASSE 1: ATIVOS (Art. 47-56)
   {
     id: 1,
     codigo: '11',
@@ -18,7 +10,7 @@ export const planoContasInicial = [
     descricao: 'Recursos controlados pela entidade com benefícios futuros esperados além de um ano',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: false,
+    movimentavel: false,
     dataCriacao: '2024-01-01'
   },
   {
@@ -30,59 +22,11 @@ export const planoContasInicial = [
     descricao: 'Terrenos, edifícios, instalações e equipamentos conforme NCRF 13',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
     id: 3,
-    codigo: '1111',
-    nome: 'Terrenos e recursos naturais',
-    classe: '1',
-    natureza: 'D',
-    descricao: 'Terrenos urbanos, rústicos e recursos minerais',
-    nivel: 3,
-    ativo: true,
-    aceitaLancamentos: true,
-    dataCriacao: '2024-01-01'
-  },
-  {
-    id: 4,
-    codigo: '1112',
-    nome: 'Edifícios e outras construções',
-    classe: '1',
-    natureza: 'D',
-    descricao: 'Edifícios comerciais, industriais e administrativos',
-    nivel: 3,
-    ativo: true,
-    aceitaLancamentos: true,
-    dataCriacao: '2024-01-01'
-  },
-  {
-    id: 5,
-    codigo: '1113',
-    nome: 'Equipamento básico',
-    classe: '1',
-    natureza: 'D',
-    descricao: 'Máquinas, equipamentos de produção e operação',
-    nivel: 3,
-    ativo: true,
-    aceitaLancamentos: true,
-    dataCriacao: '2024-01-01'
-  },
-  {
-    id: 6,
-    codigo: '1114',
-    nome: 'Equipamento de transporte',
-    classe: '1',
-    natureza: 'D',
-    descricao: 'Viaturas, empilhadores, outro equipamento de transporte',
-    nivel: 3,
-    ativo: true,
-    aceitaLancamentos: true,
-    dataCriacao: '2024-01-01'
-  },
-  {
-    id: 7,
     codigo: '112',
     nome: 'Ativos intangíveis',
     classe: '1',
@@ -90,11 +34,11 @@ export const planoContasInicial = [
     descricao: 'Goodwill, patentes, direitos de autor conforme NCRF 14',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 8,
+    id: 4,
     codigo: '113',
     nome: 'Investimentos imobiliários',
     classe: '1',
@@ -102,11 +46,35 @@ export const planoContasInicial = [
     descricao: 'Propriedades detidas para rendimento ou valorização conforme NCRF 16',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 9,
+    id: 5,
+    codigo: '114',
+    nome: 'Investimentos financeiros',
+    classe: '1',
+    natureza: 'D',
+    descricao: 'Participações em outras entidades conforme NCRF 20',
+    nivel: 2,
+    ativo: true,
+    movimentavel: true,
+    dataCriacao: '2024-01-01'
+  },
+  {
+    id: 6,
+    codigo: '115',
+    nome: 'Activos biológicos',
+    classe: '1',
+    natureza: 'D',
+    descricao: 'Animais e plantas vivos conforme NCRF 11',
+    nivel: 2,
+    ativo: true,
+    movimentavel: true,
+    dataCriacao: '2024-01-01'
+  },
+  {
+    id: 7,
     codigo: '12',
     nome: 'Ativos correntes',
     classe: '1',
@@ -114,11 +82,11 @@ export const planoContasInicial = [
     descricao: 'Recursos realizáveis no ciclo operacional normal (≤ 1 ano)',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: false,
+    movimentavel: false,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 10,
+    id: 8,
     codigo: '121',
     nome: 'Inventários',
     classe: '1',
@@ -126,11 +94,11 @@ export const planoContasInicial = [
     descricao: 'Mercadorias, matérias-primas, produtos acabados conforme NCRF 9',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 11,
+    id: 9,
     codigo: '122',
     nome: 'Clientes e outros créditos a receber',
     classe: '1',
@@ -138,11 +106,11 @@ export const planoContasInicial = [
     descricao: 'Contas a receber de clientes, adiantamentos a fornecedores',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 12,
+    id: 10,
     codigo: '123',
     nome: 'Aplicações financeiras',
     classe: '1',
@@ -150,11 +118,11 @@ export const planoContasInicial = [
     descricao: 'Depósitos a prazo, títulos negociáveis de curto prazo',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 13,
+    id: 11,
     codigo: '124',
     nome: 'Caixa e equivalentes de caixa',
     classe: '1',
@@ -162,13 +130,13 @@ export const planoContasInicial = [
     descricao: 'Dinheiro, depósitos à ordem, aplicações de liquidez imediata',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
 
-  // ============ CLASSE 2: PASSIVOS (Art. 57-62) ============
+  // CLASSE 2: PASSIVOS (Art. 57-62)
   {
-    id: 14,
+    id: 12,
     codigo: '21',
     nome: 'Passivos não correntes',
     classe: '2',
@@ -176,11 +144,11 @@ export const planoContasInicial = [
     descricao: 'Obrigações com vencimento superior a um ano',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: false,
+    movimentavel: false,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 15,
+    id: 13,
     codigo: '211',
     nome: 'Empréstimos e financiamentos a longo prazo',
     classe: '2',
@@ -188,11 +156,11 @@ export const planoContasInicial = [
     descricao: 'Empréstimos bancários, obrigações com vencimento > 1 ano',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 16,
+    id: 14,
     codigo: '212',
     nome: 'Provisões a longo prazo',
     classe: '2',
@@ -200,11 +168,11 @@ export const planoContasInicial = [
     descricao: 'Provisões para garantias, pensões conforme NCRF 24',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 17,
+    id: 15,
     codigo: '22',
     nome: 'Passivos correntes',
     classe: '2',
@@ -212,11 +180,11 @@ export const planoContasInicial = [
     descricao: 'Obrigações com vencimento ≤ 1 ano',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: false,
+    movimentavel: false,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 18,
+    id: 16,
     codigo: '221',
     nome: 'Fornecedores',
     classe: '2',
@@ -224,11 +192,11 @@ export const planoContasInicial = [
     descricao: 'Contas a pagar a fornecedores de bens e serviços',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 19,
+    id: 17,
     codigo: '222',
     nome: 'Empréstimos e financiamentos a curto prazo',
     classe: '2',
@@ -236,11 +204,11 @@ export const planoContasInicial = [
     descricao: 'Empréstimos, linhas de crédito com vencimento ≤ 1 ano',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 20,
+    id: 18,
     codigo: '223',
     nome: 'Impostos a pagar',
     classe: '2',
@@ -248,13 +216,13 @@ export const planoContasInicial = [
     descricao: 'IVA, IRPC, retenções na fonte a regularizar',
     nivel: 2,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
 
-  // ============ CLASSE 3: CAPITAL PRÓPRIO (Art. 63-66) ============
+  // CLASSE 3: CAPITAL PRÓPRIO (Art. 63-66)
   {
-    id: 21,
+    id: 19,
     codigo: '31',
     nome: 'Capital social',
     classe: '3',
@@ -262,11 +230,11 @@ export const planoContasInicial = [
     descricao: 'Contribuições dos detentores de capital',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 22,
+    id: 20,
     codigo: '32',
     nome: 'Reservas',
     classe: '3',
@@ -274,11 +242,11 @@ export const planoContasInicial = [
     descricao: 'Reservas legais, estatutárias e livres',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 23,
+    id: 21,
     codigo: '33',
     nome: 'Resultados transitados',
     classe: '3',
@@ -286,11 +254,11 @@ export const planoContasInicial = [
     descricao: 'Lucros acumulados não distribuídos',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 24,
+    id: 22,
     codigo: '34',
     nome: 'Resultado líquido do período',
     classe: '3',
@@ -298,13 +266,13 @@ export const planoContasInicial = [
     descricao: 'Lucro ou prejuízo do exercício corrente',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
 
-  // ============ CLASSE 4: RENDIMENTOS (Art. 72-75) ============
+  // CLASSE 4: RENDIMENTOS (Art. 72-75)
   {
-    id: 25,
+    id: 23,
     codigo: '41',
     nome: 'Vendas e serviços prestados',
     classe: '4',
@@ -312,11 +280,11 @@ export const planoContasInicial = [
     descricao: 'Réditos da atividade principal conforme NCRF 28',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 26,
+    id: 24,
     codigo: '42',
     nome: 'Outros rendimentos',
     classe: '4',
@@ -324,11 +292,11 @@ export const planoContasInicial = [
     descricao: 'Juros recebidos, rendimentos de investimentos',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 27,
+    id: 25,
     codigo: '43',
     nome: 'Ganhos',
     classe: '4',
@@ -336,13 +304,13 @@ export const planoContasInicial = [
     descricao: 'Aumentos de benefícios económicos não provenientes de rendimentos',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
 
-  // ============ CLASSE 5: GASTOS (Art. 76-78) ============
+  // CLASSE 5: GASTOS (Art. 76-78)
   {
-    id: 28,
+    id: 26,
     codigo: '51',
     nome: 'Custo das mercadorias vendidas e dos materiais consumidos',
     classe: '5',
@@ -350,11 +318,11 @@ export const planoContasInicial = [
     descricao: 'Custo dos inventários vendidos ou consumidos',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 29,
+    id: 27,
     codigo: '52',
     nome: 'Fornecimentos e serviços externos',
     classe: '5',
@@ -362,11 +330,11 @@ export const planoContasInicial = [
     descricao: 'Água, energia, comunicações, serviços contratados',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 30,
+    id: 28,
     codigo: '53',
     nome: 'Gastos com pessoal',
     classe: '5',
@@ -374,11 +342,11 @@ export const planoContasInicial = [
     descricao: 'Salários, contribuições sociais, formação conforme NCRF 19',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 31,
+    id: 29,
     codigo: '54',
     nome: 'Impostos',
     classe: '5',
@@ -386,11 +354,11 @@ export const planoContasInicial = [
     descricao: 'Impostos não recuperáveis, taxas e licenças',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 32,
+    id: 30,
     codigo: '55',
     nome: 'Gastos de depreciação e amortização',
     classe: '5',
@@ -398,11 +366,11 @@ export const planoContasInicial = [
     descricao: 'Desgaste de ativos fixos e intangíveis',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   },
   {
-    id: 33,
+    id: 31,
     codigo: '56',
     nome: 'Perdas',
     classe: '5',
@@ -410,12 +378,12 @@ export const planoContasInicial = [
     descricao: 'Reduções de benefícios económicos não provenientes de gastos',
     nivel: 1,
     ativo: true,
-    aceitaLancamentos: true,
+    movimentavel: true,
     dataCriacao: '2024-01-01'
   }
 ];
 
-// Exportar dados auxiliares
+// Estruturas auxiliares
 export const classesPGC = [
   { codigo: '1', nome: 'Ativos', naturezaPadrao: 'D' },
   { codigo: '2', nome: 'Passivos', naturezaPadrao: 'C' },
@@ -426,7 +394,7 @@ export const classesPGC = [
   { codigo: '7', nome: 'Contas de Compromissos', naturezaPadrao: 'D/C' }
 ];
 
-export const naturezas = [
+export const naturezasConta = [
   { codigo: 'D', nome: 'Débito' },
   { codigo: 'C', nome: 'Crédito' },
   { codigo: 'D/C', nome: 'Débito/Crédito' }
