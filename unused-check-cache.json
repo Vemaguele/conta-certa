@@ -1,0 +1,3545 @@
+{
+  "parentGraph": {
+    "graph": {
+      "C:\\Users\\USER\\conta-certa\\src\\App.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\App.js",
+        "hash": "1bf089d489245511d6920160f70e881f",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "@mui/material/styles",
+          "@mui/material/CssBaseline",
+          "@mui/material",
+          "@mui/icons-material/Home",
+          "@mui/icons-material/AccountTree",
+          "@mui/icons-material/Settings",
+          "C:\\Users\\USER\\conta-certa\\src\\App.css",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "BrowserRouter",
+              "Router"
+            ],
+            [
+              "Routes",
+              "Routes"
+            ],
+            [
+              "Route",
+              "Route"
+            ],
+            [
+              "Link",
+              "Link"
+            ]
+          ],
+          "@mui/material/styles": [
+            [
+              "ThemeProvider",
+              "ThemeProvider"
+            ],
+            [
+              "createTheme",
+              "createTheme"
+            ]
+          ],
+          "@mui/material/CssBaseline": [
+            [
+              "default",
+              "CssBaseline"
+            ]
+          ],
+          "@mui/material": [
+            [
+              "AppBar",
+              "AppBar"
+            ],
+            [
+              "Toolbar",
+              "Toolbar"
+            ],
+            [
+              "Typography",
+              "Typography"
+            ],
+            [
+              "Button",
+              "Button"
+            ],
+            [
+              "Container",
+              "Container"
+            ],
+            [
+              "Box",
+              "Box"
+            ]
+          ],
+          "@mui/icons-material/Home": [
+            [
+              "default",
+              "HomeIcon"
+            ]
+          ],
+          "@mui/icons-material/AccountTree": [
+            [
+              "default",
+              "AccountTreeIcon"
+            ]
+          ],
+          "@mui/icons-material/Settings": [
+            [
+              "default",
+              "SettingsIcon"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx": [
+            [
+              "default",
+              "ConfiguracoesSistema"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js": [
+            [
+              "default",
+              "PlanoContasPage"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.test.js",
+          "C:\\Users\\USER\\conta-certa\\src\\index.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770814522790,
+        "size": 2950
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\App.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+        "hash": "4db904f6d81d89c253cadd00f42afa81",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Header.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Sidebar.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AccountingPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ClientsPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\SuppliersPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PerfilPage.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "BrowserRouter",
+              "Router"
+            ],
+            [
+              "Routes",
+              "Routes"
+            ],
+            [
+              "Route",
+              "Route"
+            ],
+            [
+              "Navigate",
+              "Navigate"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "AuthProvider",
+              "AuthProvider"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "ConfigProvider",
+              "ConfigProvider"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx": [
+            [
+              "default",
+              "ProtectedRoute"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx": [
+            [
+              "default",
+              "LoginPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Header.jsx": [
+            [
+              "default",
+              "Header"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Sidebar.jsx": [
+            [
+              "default",
+              "Sidebar"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx": [
+            [
+              "default",
+              "DashboardPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx": [
+            [
+              "default",
+              "InvoicesPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AccountingPage.jsx": [
+            [
+              "default",
+              "AccountingPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ClientsPage.jsx": [
+            [
+              "default",
+              "ClientsPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\SuppliersPage.jsx": [
+            [
+              "default",
+              "SuppliersPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx": [
+            [
+              "default",
+              "ConfiguracoesSistema"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx": [
+            [
+              "default",
+              "AdminPage"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PerfilPage.jsx": [
+            [
+              "default",
+              "PerfilPage"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\main.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770547994676,
+        "size": 4292
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\App.test.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\App.test.js",
+        "hash": "d18ac434afb00158b91831ac1e36c491",
+        "imports": [
+          "@testing-library/react",
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "imported": {
+          "@testing-library/react": [
+            [
+              "render",
+              "render"
+            ],
+            [
+              "screen",
+              "screen"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\App.js": [
+            [
+              "default",
+              "App"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769343086601,
+        "size": 246
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\index.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\index.js",
+        "hash": "a5dde39b04b7656ae51d5aff66c31cbe",
+        "imports": [
+          "react",
+          "react-dom/client",
+          "react-redux",
+          "C:\\Users\\USER\\conta-certa\\src\\app\\store.js",
+          "C:\\Users\\USER\\conta-certa\\src\\App.js",
+          "C:\\Users\\USER\\conta-certa\\src\\index.css"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-dom/client": [
+            [
+              "default",
+              "ReactDOM"
+            ]
+          ],
+          "react-redux": [
+            [
+              "Provider",
+              "Provider"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\app\\store.js": [
+            [
+              "store",
+              "store"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\App.js": [
+            [
+              "default",
+              "App"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770746633493,
+        "size": 328
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\main.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\main.jsx",
+        "hash": "7d5f573c13beb2ae29ba3e1a68e7e4d3",
+        "imports": [
+          "react",
+          "react-dom/client",
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+          "bootstrap/dist/css/bootstrap.min.css",
+          "C:\\Users\\USER\\conta-certa\\src\\styles\\globals.css"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-dom/client": [
+            [
+              "default",
+              "ReactDOM"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx": [
+            [
+              "default",
+              "App"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769775620269,
+        "size": 311
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\reportWebVitals.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\reportWebVitals.js",
+        "hash": "240e2381f826a9bb84d178b29b7b9abe",
+        "imports": [
+          "web-vitals"
+        ],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769343087164,
+        "size": 362
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\setupTests.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\setupTests.js",
+        "hash": "1a77571e1a8cf36018a41bcedf60db75",
+        "imports": [
+          "@testing-library/jest-dom"
+        ],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769343087329,
+        "size": 241
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\api\\apiClient.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\apiClient.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517885131,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\api\\clientesApi.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\clientesApi.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517959075,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\api\\invoicesApi.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\invoicesApi.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517916031,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\app\\store.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\app\\store.js",
+        "hash": "62682c326feca4564bdc1c8a844122cc",
+        "imports": [
+          "@reduxjs/toolkit",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\planoContas\\planoContasSlice.js"
+        ],
+        "imported": {
+          "@reduxjs/toolkit": [
+            [
+              "configureStore",
+              "configureStore"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\planoContas\\planoContasSlice.js": [
+            [
+              "default",
+              "planoContasReducer"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\index.js"
+        ],
+        "exports": [
+          "store"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770746421694,
+        "size": 230
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx",
+        "hash": "06a4c096e14d1d2292a18dcd746ac8c8",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "createContext",
+              "createContext"
+            ],
+            [
+              "useState",
+              "useState"
+            ],
+            [
+              "useContext",
+              "useContext"
+            ],
+            [
+              "useEffect",
+              "useEffect"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx"
+        ],
+        "exports": [
+          "UserRoles",
+          "AuthProvider",
+          "useAuth"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769865136153,
+        "size": 4081
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx",
+        "hash": "0ad30c80b4d513461b4e57de12486c7a",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "useNavigate",
+              "useNavigate"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "useAuth",
+              "useAuth"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769865178715,
+        "size": 5853
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx",
+        "hash": "33d618a6c9bef185897bc577ae1d824f",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "Navigate",
+              "Navigate"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "useAuth",
+              "useAuth"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769865205123,
+        "size": 1657
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\auth\\useAuth.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\auth\\useAuth.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769865031704,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Accounting.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Accounting.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769266809528,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Clients.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Clients.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769266854788,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Dashboard.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Dashboard.jsx",
+        "hash": "6ebb25dc12fdbae0fcaa9cf1aff240d7",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769516357148,
+        "size": 3160
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\InvoiceCreator.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\InvoiceCreator.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769519170930,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Invoicing.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Invoicing.jsx",
+        "hash": "5225ba443da2f7d1fdf77653a3617f75",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769351453942,
+        "size": 4343
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Sidebar.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Sidebar.js",
+        "hash": "cc81b4141c36a68388513a764d8d6731",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770142156704,
+        "size": 156
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\context\\AuthContext.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\context\\AuthContext.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769518025716,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx",
+        "hash": "d6c1e003c948ab2e3e117f64b183e383",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "createContext",
+              "createContext"
+            ],
+            [
+              "useState",
+              "useState"
+            ],
+            [
+              "useContext",
+              "useContext"
+            ],
+            [
+              "useEffect",
+              "useEffect"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\relatorios\\RelatoriosPersonalizados.jsx"
+        ],
+        "exports": [
+          "useConfig",
+          "ConfigProvider"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770547757882,
+        "size": 4102
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\context\\InvoiceContext.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\context\\InvoiceContext.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769518018217,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\data\\mockClients.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockClients.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769518474547,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\data\\mockData.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockData.js",
+        "hash": "0a9cad03b1035446102a5c62d815f402",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [
+          "mockInvoices",
+          "mockClients",
+          "summaryData"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769609076930,
+        "size": 837
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\data\\mockInvoices.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockInvoices.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769518427664,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\hooks\\useClients.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\hooks\\useClients.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517508592,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\hooks\\useInvoices.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\hooks\\useInvoices.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517444953,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\AccountingPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\AccountingPage.jsx",
+        "hash": "87f23243e5629b3da2c7c48d8bbbb478",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769778897270,
+        "size": 461
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx",
+        "hash": "f957a74dfbffaf59dd1ade11d756261a",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "useAuth",
+              "useAuth"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769866234726,
+        "size": 6270
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\BanksPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\BanksPage.jsx",
+        "hash": "508b1de294d1cc08afafc80b074f4bfa",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769779380136,
+        "size": 642
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ClientsPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ClientsPage.jsx",
+        "hash": "e7e2fe3868a0fcce223d91db523e3748",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769778916997,
+        "size": 447
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ComprasPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ComprasPage.jsx",
+        "hash": "6dd29fa3122ef605722410e204b0775a",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870259502,
+        "size": 496
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\Configuracoes.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\Configuracoes.js",
+        "hash": "e7d4d379c761a880913438883f4536dc",
+        "imports": [
+          "react",
+          "bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770134385188,
+        "size": 46105
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx",
+        "hash": "7e68864785d32566b6dfab13ae58bad8",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "useConfig",
+              "useConfig"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx": [
+            [
+              "default",
+              "DashboardConfig"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js",
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770398598728,
+        "size": 51266
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ControloGestaoPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ControloGestaoPage.jsx",
+        "hash": "590339707de9c8d7b75e368e0eda49c2",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870284238,
+        "size": 534
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx",
+        "hash": "04672bc984ee608fb8d97bb274aa2771",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "useConfig",
+              "useConfig"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770390850045,
+        "size": 7723
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\DocumentosPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\DocumentosPage.jsx",
+        "hash": "ce8355a7f19556d3e995e53c68262cb6",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870297712,
+        "size": 526
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\EFaturacaoPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\EFaturacaoPage.jsx",
+        "hash": "545c929a918219b8b725453f795e5269",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870312548,
+        "size": 514
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\FolhaPagamentoPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\FolhaPagamentoPage.jsx",
+        "hash": "e610796a21e1a665ef84b0bc6572c92e",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870328261,
+        "size": 532
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ImobilizadoPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ImobilizadoPage.jsx",
+        "hash": "acaef882b76944d5c86e4b33a76a3308",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870342404,
+        "size": 512
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx",
+        "hash": "7e9ba9ec0b82e5940afe4de1bf0f63d7",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "Link",
+              "Link"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx": [
+            [
+              "default",
+              "NovaFatura"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770381580616,
+        "size": 1912
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\IvaImpostosPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\IvaImpostosPage.jsx",
+        "hash": "4cac9f563596bdc216ab3186aa44d9f9",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870360207,
+        "size": 514
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\MobilePage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\MobilePage.jsx",
+        "hash": "c0d34c9f3edd25ace58592438eb80579",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870378812,
+        "size": 506
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\PerfilPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\PerfilPage.jsx",
+        "hash": "77eb9a2865c7c863a2891ce4ba191f60",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870420921,
+        "size": 500
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js",
+        "hash": "632edf36f8b1fdbe20a462fe6f625b2c",
+        "imports": [
+          "react",
+          "@mui/material",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js",
+          "react-redux",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "@mui/material": [
+            [
+              "Container",
+              "Container"
+            ],
+            [
+              "Grid",
+              "Grid"
+            ],
+            [
+              "Box",
+              "Box"
+            ],
+            [
+              "Typography",
+              "Typography"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js": [
+            [
+              "default",
+              "PlanoContasList"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js": [
+            [
+              "default",
+              "ContaForm"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js": [
+            [
+              "default",
+              "ResumoPlanoContas"
+            ]
+          ],
+          "react-redux": [
+            [
+              "useSelector",
+              "useSelector"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js": [
+            [
+              "selectContaSelecionada",
+              "selectContaSelecionada"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770807802094,
+        "size": 2567
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ProjetosPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ProjetosPage.jsx",
+        "hash": "570129d3f94cce68227f79870c00d3d5",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870399749,
+        "size": 500
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\ReportsPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ReportsPage.jsx",
+        "hash": "b60b87d21446d7ee8f18f98ffaf9703c",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769786426191,
+        "size": 741
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\StockPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\StockPage.jsx",
+        "hash": "a82d95610fc9de21ed937e121cef7488",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870215323,
+        "size": 504
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\SuppliersPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\SuppliersPage.jsx",
+        "hash": "9dc21075b23e5caf7d32b4775e4c0b1a",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769786026917,
+        "size": 724
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\TesourariaPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\TesourariaPage.jsx",
+        "hash": "681639b9612e1e512415715d5f3ede7a",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870188466,
+        "size": 508
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\pages\\VendasCrmPage.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\VendasCrmPage.jsx",
+        "hash": "dd9edaabea1613d564cf76d9dd9dc49d",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769870148617,
+        "size": 510
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\utils\\calculations.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\calculations.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517147445,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\utils\\format.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\format.js",
+        "hash": "a63e0b108a15b92b5546ecab86a1867f",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [
+          "formatCurrency",
+          "formatDate",
+          "formatInvoiceNumber",
+          "calculateIVA",
+          "calculateTotalWithIVA"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769609279428,
+        "size": 605
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\utils\\pdfGenerator.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\pdfGenerator.js",
+        "hash": "69ca22eba06dc9645ac1bfc4908cb1ee",
+        "imports": [
+          "jspdf",
+          "html2canvas"
+        ],
+        "imported": {
+          "jspdf": [
+            [
+              "default",
+              "jsPDF"
+            ]
+          ],
+          "html2canvas": [
+            [
+              "default",
+              "html2canvas"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [
+          "generateInvoicePDF"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770401609958,
+        "size": 1062
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\utils\\validadations.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\validadations.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769517212974,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Button.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Button.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769519430314,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\FormField.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\FormField.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769267354180,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\InvoiceRow.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\InvoiceRow.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769267316127,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Modal.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Modal.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769519449795,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Table.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Table.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769519465262,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\ValueBox.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\ValueBox.jsx",
+        "hash": "640730c0f9ce81f2167954ef0a353406",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769771063606,
+        "size": 934
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\Configuracoes.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\Configuracoes.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770132055570,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ContabilidadeConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ContabilidadeConfig.js",
+        "hash": "e771fd874a6950ef92d8925824b11ce8",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770212550141,
+        "size": 9895
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx",
+        "hash": "0aea8f5a05c80a2d43f8f3f4f738716f",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "useConfig",
+              "useConfig"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770547857295,
+        "size": 12474
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\EmpresaConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\EmpresaConfig.js",
+        "hash": "48e631685ebc6ed67c19254cd683be6f",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770211861359,
+        "size": 5995
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\FaturacaoConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\FaturacaoConfig.js",
+        "hash": "09b3bb095e2d3fa70e24e0d336b2f1b4",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770211904877,
+        "size": 8272
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ImpostoConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ImpostoConfig.js",
+        "hash": "3c8d88c537531c97b1b0957067621f4e",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770211972451,
+        "size": 4847
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\index.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\index.js",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770132295373,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ModulosConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ModulosConfig.js",
+        "hash": "7397c48e75f6e8e9b96e7bf2cede9152",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770212486316,
+        "size": 7551
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\SegurancaConfig.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\SegurancaConfig.js",
+        "hash": "b68e64f1089d10b87b85d26592999efd",
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770212005986,
+        "size": 6379
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\FilterPanel.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\FilterPanel.jsx",
+        "hash": "fb352de8142b4b9d8bfdaddc935c2c6a",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769772887621,
+        "size": 4680
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricCard.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricCard.jsx",
+        "hash": "ea3a13c8e32e6265456a5525401ed725",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricsGrid.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769772940922,
+        "size": 2394
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricsGrid.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricsGrid.jsx",
+        "hash": "fb7dc43eaf1ba1d020386b90b6884b3f",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricCard.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricCard.jsx": [
+            [
+              "default",
+              "MetricCard"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769772977264,
+        "size": 1738
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx",
+        "hash": "385300992a4dc207a63bfcdc203893dc",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ],
+            [
+              "useRef",
+              "useRef"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "useConfig",
+              "useConfig"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770547705170,
+        "size": 24617
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\DashboardLayout.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\DashboardLayout.jsx",
+        "hash": "a449df57b1b0dd76b7e310eb3b834583",
+        "imports": [
+          "react"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769607292453,
+        "size": 2450
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Footer.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Footer.jsx",
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769267525924,
+        "size": 0
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx",
+        "hash": "1a5caa9d978dfdf6a32c89cca3dc0d5c",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "Link",
+              "Link"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "useAuth",
+              "useAuth"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1769866783997,
+        "size": 6058
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx",
+        "hash": "ee54b9d215747dc2f881b7fa1d07e084",
+        "imports": [
+          "react",
+          "react-router-dom",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "react-router-dom": [
+            [
+              "NavLink",
+              "NavLink"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx": [
+            [
+              "useAuth",
+              "useAuth"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770206177849,
+        "size": 11579
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\relatorios\\RelatoriosPersonalizados.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\relatorios\\RelatoriosPersonalizados.jsx",
+        "hash": "74d7569b196417ccf75f17281609cf30",
+        "imports": [
+          "react",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx": [
+            [
+              "useConfig",
+              "useConfig"
+            ]
+          ]
+        },
+        "importedBy": [],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770228266919,
+        "size": 2964
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+        "hash": "65987a28b6b3d325c195e6203628a2e1",
+        "imports": [
+          "react",
+          "react-redux",
+          "./features/planoContas/planoContasSlice",
+          "@mui/material"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useState",
+              "useState"
+            ]
+          ],
+          "react-redux": [
+            [
+              "useDispatch",
+              "useDispatch"
+            ]
+          ],
+          "./features/planoContas/planoContasSlice": [
+            [
+              "adicionarConta",
+              "adicionarConta"
+            ],
+            [
+              "atualizarConta",
+              "atualizarConta"
+            ]
+          ],
+          "@mui/material": [
+            [
+              "Box",
+              "Box"
+            ],
+            [
+              "TextField",
+              "TextField"
+            ],
+            [
+              "Button",
+              "Button"
+            ],
+            [
+              "FormControl",
+              "FormControl"
+            ],
+            [
+              "InputLabel",
+              "InputLabel"
+            ],
+            [
+              "Select",
+              "Select"
+            ],
+            [
+              "MenuItem",
+              "MenuItem"
+            ],
+            [
+              "Grid",
+              "Grid"
+            ],
+            [
+              "Paper",
+              "Paper"
+            ],
+            [
+              "Typography",
+              "Typography"
+            ],
+            [
+              "Alert",
+              "Alert"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770749392544,
+        "size": 6652
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasData.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasData.js",
+        "hash": "882751acf5c70e8c09da86e9a76d8e6c",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js"
+        ],
+        "exports": [
+          "planoContasInicial",
+          "classesPGC",
+          "naturezasConta"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770746718678,
+        "size": 9703
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js",
+        "hash": "8ad3694a2fa514cd96bb4380c3601b7a",
+        "imports": [
+          "react",
+          "react-redux",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js",
+          "@mui/material"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ],
+            [
+              "useEffect",
+              "useEffect"
+            ]
+          ],
+          "react-redux": [
+            [
+              "useSelector",
+              "useSelector"
+            ],
+            [
+              "useDispatch",
+              "useDispatch"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js": [
+            [
+              "fetchContas",
+              "fetchContas"
+            ],
+            [
+              "setContaSelecionada",
+              "setContaSelecionada"
+            ],
+            [
+              "setFiltroClasse",
+              "setFiltroClasse"
+            ],
+            [
+              "setFiltroTexto",
+              "setFiltroTexto"
+            ],
+            [
+              "selectContasFiltradas",
+              "selectContasFiltradas"
+            ],
+            [
+              "selectStatus",
+              "selectStatus"
+            ],
+            [
+              "selectFiltro",
+              "selectFiltro"
+            ]
+          ],
+          "@mui/material": [
+            [
+              "Table",
+              "Table"
+            ],
+            [
+              "TableBody",
+              "TableBody"
+            ],
+            [
+              "TableCell",
+              "TableCell"
+            ],
+            [
+              "TableContainer",
+              "TableContainer"
+            ],
+            [
+              "TableHead",
+              "TableHead"
+            ],
+            [
+              "TableRow",
+              "TableRow"
+            ],
+            [
+              "Paper",
+              "Paper"
+            ],
+            [
+              "CircularProgress",
+              "CircularProgress"
+            ],
+            [
+              "TextField",
+              "TextField"
+            ],
+            [
+              "Select",
+              "Select"
+            ],
+            [
+              "MenuItem",
+              "MenuItem"
+            ],
+            [
+              "FormControl",
+              "FormControl"
+            ],
+            [
+              "InputLabel",
+              "InputLabel"
+            ],
+            [
+              "Box",
+              "Box"
+            ],
+            [
+              "Typography",
+              "Typography"
+            ],
+            [
+              "Chip",
+              "Chip"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770746813698,
+        "size": 5769
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js",
+        "hash": "a4f310e31fe42d25ae482c3a2b3149e9",
+        "imports": [
+          "@reduxjs/toolkit",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasData.js"
+        ],
+        "imported": {
+          "@reduxjs/toolkit": [
+            [
+              "createSlice",
+              "createSlice"
+            ],
+            [
+              "createAsyncThunk",
+              "createAsyncThunk"
+            ]
+          ],
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasData.js": [
+            [
+              "planoContasInicial",
+              "planoContasInicial"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js"
+        ],
+        "exports": [
+          "fetchContas",
+          "salvarConta",
+          "selectTodasContas",
+          "selectContaSelecionada",
+          "selectStatus",
+          "selectFiltro",
+          "selectContasFiltradas",
+          "selectContasPorClasse"
+        ],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770746688696,
+        "size": 4780
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js",
+        "hash": "b4ec6d5091d3dd25bd45b6c56ed00c32",
+        "imports": [
+          "react",
+          "react-redux",
+          "./features/planoContas/planoContasSlice",
+          "@mui/material",
+          "@mui/icons-material"
+        ],
+        "imported": {
+          "react": [
+            [
+              "default",
+              "React"
+            ]
+          ],
+          "react-redux": [
+            [
+              "useSelector",
+              "useSelector"
+            ]
+          ],
+          "./features/planoContas/planoContasSlice": [
+            [
+              "selectContasPorClasse",
+              "selectContasPorClasse"
+            ]
+          ],
+          "@mui/material": [
+            [
+              "Paper",
+              "Paper"
+            ],
+            [
+              "Grid",
+              "Grid"
+            ],
+            [
+              "Typography",
+              "Typography"
+            ],
+            [
+              "Box",
+              "Box"
+            ],
+            [
+              "LinearProgress",
+              "LinearProgress"
+            ],
+            [
+              "Chip",
+              "Chip"
+            ],
+            [
+              "Stack",
+              "Stack"
+            ]
+          ],
+          "@mui/icons-material": [
+            [
+              "AccountBalance",
+              "AtivosIcon"
+            ],
+            [
+              "AccountBalanceWallet",
+              "PassivosIcon"
+            ],
+            [
+              "People",
+              "CapitalIcon"
+            ],
+            [
+              "TrendingUp",
+              "RendimentosIcon"
+            ],
+            [
+              "TrendingDown",
+              "GastosIcon"
+            ]
+          ]
+        },
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": 1770749135079,
+        "size": 4163
+      },
+      "react": {
+        "file": "react",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js",
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\index.js",
+          "C:\\Users\\USER\\conta-certa\\src\\main.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\AuthContext.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\context\\ConfigContext.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AccountingPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\AdminPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\BanksPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ClientsPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ComprasPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\Configuracoes.js",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ConfiguracoesSistema.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ControloGestaoPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\DashboardPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\DocumentosPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\EFaturacaoPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\FolhaPagamentoPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ImobilizadoPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\IvaImpostosPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\MobilePage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PerfilPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ProjetosPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\ReportsPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\StockPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\SuppliersPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\TesourariaPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\VendasCrmPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\ValueBox.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\DashboardConfig.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\FilterPanel.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricCard.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricsGrid.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\faturacao\\NovaFatura.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\DashboardLayout.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\relatorios\\RelatoriosPersonalizados.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "react-router-dom": {
+        "file": "react-router-dom",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js",
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\LoginPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\auth\\ProtectedRoute.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\InvoicesPage.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/material/styles": {
+        "file": "@mui/material/styles",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/material/CssBaseline": {
+        "file": "@mui/material/CssBaseline",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/material": {
+        "file": "@mui/material",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/icons-material/Home": {
+        "file": "@mui/icons-material/Home",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/icons-material/AccountTree": {
+        "file": "@mui/icons-material/AccountTree",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/icons-material/Settings": {
+        "file": "@mui/icons-material/Settings",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\App.css": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\App.css",
+        "size": 566,
+        "hash": "3da50ded6cd6819d4490cab805ea65a2",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.js"
+        ],
+        "lastModified": 1770135569347,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Header.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Header.jsx",
+        "size": 6058,
+        "hash": "1a5caa9d978dfdf6a32c89cca3dc0d5c",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "lastModified": 1769866783997,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Sidebar.jsx": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\layout\\Sidebar.jsx",
+        "size": 11579,
+        "hash": "ee54b9d215747dc2f881b7fa1d07e084",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.jsx"
+        ],
+        "lastModified": 1770206177849,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "@testing-library/react": {
+        "file": "@testing-library/react",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\App.test.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "react-dom/client": {
+        "file": "react-dom/client",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\index.js",
+          "C:\\Users\\USER\\conta-certa\\src\\main.jsx"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "react-redux": {
+        "file": "react-redux",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\index.js",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\PlanoContasPage.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\PlanoContasList.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\index.css": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\index.css",
+        "size": 1052,
+        "hash": "41d24ba38bce01305206c1d768245498",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\index.js"
+        ],
+        "lastModified": 1770392128784,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "bootstrap/dist/css/bootstrap.min.css": {
+        "file": "bootstrap/dist/css/bootstrap.min.css",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\main.jsx",
+          "C:\\Users\\USER\\conta-certa\\src\\pages\\Configuracoes.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\styles\\globals.css": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\styles\\globals.css",
+        "size": 16912,
+        "hash": "510514e5e632bd6e433c0a1a4f7f33f0",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\main.jsx"
+        ],
+        "lastModified": 1769869134550,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "web-vitals": {
+        "file": "web-vitals",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\reportWebVitals.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@testing-library/jest-dom": {
+        "file": "@testing-library/jest-dom",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\setupTests.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@reduxjs/toolkit": {
+        "file": "@reduxjs/toolkit",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\app\\store.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\planoContasSlice.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "C:\\Users\\USER\\conta-certa\\src\\features\\planoContas\\planoContasSlice.js": {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\features\\planoContas\\planoContasSlice.js",
+        "size": 4780,
+        "hash": "a4f310e31fe42d25ae482c3a2b3149e9",
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\app\\store.js"
+        ],
+        "lastModified": 1770746688696,
+        "exports": [],
+        "reExported": [],
+        "reExportedBy": []
+      },
+      "jspdf": {
+        "file": "jspdf",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\utils\\pdfGenerator.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "html2canvas": {
+        "file": "html2canvas",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\utils\\pdfGenerator.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "./features/planoContas/planoContasSlice": {
+        "file": "./features/planoContas/planoContasSlice",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ContaForm.js",
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      },
+      "@mui/icons-material": {
+        "file": "@mui/icons-material",
+        "size": 0,
+        "hash": null,
+        "imports": [],
+        "imported": {},
+        "importedBy": [
+          "C:\\Users\\USER\\conta-certa\\src\\features\\PlanoContas\\ResumoPlanoContas.js"
+        ],
+        "exports": [],
+        "reExportedBy": [],
+        "reExported": [],
+        "lastModified": null
+      }
+    },
+    "unusedFiles": [
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\App.test.js",
+        "hash": "d18ac434afb00158b91831ac1e36c491",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769343086601,
+        "size": 246
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\index.js",
+        "hash": "a5dde39b04b7656ae51d5aff66c31cbe",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770746633493,
+        "size": 328
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\main.jsx",
+        "hash": "7d5f573c13beb2ae29ba3e1a68e7e4d3",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769775620269,
+        "size": 311
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\reportWebVitals.js",
+        "hash": "240e2381f826a9bb84d178b29b7b9abe",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769343087164,
+        "size": 362
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\setupTests.js",
+        "hash": "1a77571e1a8cf36018a41bcedf60db75",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769343087329,
+        "size": 241
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\apiClient.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517885131,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\clientesApi.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517959075,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\api\\invoicesApi.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517916031,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\auth\\useAuth.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769865031704,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Accounting.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769266809528,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Clients.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769266854788,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Dashboard.jsx",
+        "hash": "6ebb25dc12fdbae0fcaa9cf1aff240d7",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769516357148,
+        "size": 3160
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\InvoiceCreator.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769519170930,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Invoicing.jsx",
+        "hash": "5225ba443da2f7d1fdf77653a3617f75",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769351453942,
+        "size": 4343
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Sidebar.js",
+        "hash": "cc81b4141c36a68388513a764d8d6731",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770142156704,
+        "size": 156
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\context\\AuthContext.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769518025716,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\context\\InvoiceContext.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769518018217,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockClients.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769518474547,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockData.js",
+        "hash": "0a9cad03b1035446102a5c62d815f402",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769609076930,
+        "size": 837
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\data\\mockInvoices.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769518427664,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\hooks\\useClients.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517508592,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\hooks\\useInvoices.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517444953,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\BanksPage.jsx",
+        "hash": "508b1de294d1cc08afafc80b074f4bfa",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769779380136,
+        "size": 642
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ComprasPage.jsx",
+        "hash": "6dd29fa3122ef605722410e204b0775a",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870259502,
+        "size": 496
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\Configuracoes.js",
+        "hash": "e7d4d379c761a880913438883f4536dc",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770134385188,
+        "size": 46105
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ControloGestaoPage.jsx",
+        "hash": "590339707de9c8d7b75e368e0eda49c2",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870284238,
+        "size": 534
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\DocumentosPage.jsx",
+        "hash": "ce8355a7f19556d3e995e53c68262cb6",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870297712,
+        "size": 526
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\EFaturacaoPage.jsx",
+        "hash": "545c929a918219b8b725453f795e5269",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870312548,
+        "size": 514
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\FolhaPagamentoPage.jsx",
+        "hash": "e610796a21e1a665ef84b0bc6572c92e",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870328261,
+        "size": 532
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ImobilizadoPage.jsx",
+        "hash": "acaef882b76944d5c86e4b33a76a3308",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870342404,
+        "size": 512
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\IvaImpostosPage.jsx",
+        "hash": "4cac9f563596bdc216ab3186aa44d9f9",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870360207,
+        "size": 514
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\MobilePage.jsx",
+        "hash": "c0d34c9f3edd25ace58592438eb80579",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870378812,
+        "size": 506
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ProjetosPage.jsx",
+        "hash": "570129d3f94cce68227f79870c00d3d5",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870399749,
+        "size": 500
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\ReportsPage.jsx",
+        "hash": "b60b87d21446d7ee8f18f98ffaf9703c",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769786426191,
+        "size": 741
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\StockPage.jsx",
+        "hash": "a82d95610fc9de21ed937e121cef7488",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870215323,
+        "size": 504
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\TesourariaPage.jsx",
+        "hash": "681639b9612e1e512415715d5f3ede7a",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870188466,
+        "size": 508
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\pages\\VendasCrmPage.jsx",
+        "hash": "dd9edaabea1613d564cf76d9dd9dc49d",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769870148617,
+        "size": 510
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\calculations.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517147445,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\format.js",
+        "hash": "a63e0b108a15b92b5546ecab86a1867f",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769609279428,
+        "size": 605
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\pdfGenerator.js",
+        "hash": "69ca22eba06dc9645ac1bfc4908cb1ee",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770401609958,
+        "size": 1062
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\utils\\validadations.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769517212974,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Button.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769519430314,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\FormField.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769267354180,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\InvoiceRow.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769267316127,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Modal.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769519449795,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\Table.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769519465262,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Common\\ValueBox.jsx",
+        "hash": "640730c0f9ce81f2167954ef0a353406",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769771063606,
+        "size": 934
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\Configuracoes.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770132055570,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ContabilidadeConfig.js",
+        "hash": "e771fd874a6950ef92d8925824b11ce8",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770212550141,
+        "size": 9895
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\EmpresaConfig.js",
+        "hash": "48e631685ebc6ed67c19254cd683be6f",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770211861359,
+        "size": 5995
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\FaturacaoConfig.js",
+        "hash": "09b3bb095e2d3fa70e24e0d336b2f1b4",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770211904877,
+        "size": 8272
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ImpostoConfig.js",
+        "hash": "3c8d88c537531c97b1b0957067621f4e",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770211972451,
+        "size": 4847
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\index.js",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770132295373,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\ModulosConfig.js",
+        "hash": "7397c48e75f6e8e9b96e7bf2cede9152",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770212486316,
+        "size": 7551
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\configuracoes\\SegurancaConfig.js",
+        "hash": "b68e64f1089d10b87b85d26592999efd",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770212005986,
+        "size": 6379
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\FilterPanel.jsx",
+        "hash": "fb352de8142b4b9d8bfdaddc935c2c6a",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769772887621,
+        "size": 4680
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\dashboard\\MetricsGrid.jsx",
+        "hash": "fb7dc43eaf1ba1d020386b90b6884b3f",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769772977264,
+        "size": 1738
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\DashboardLayout.jsx",
+        "hash": "a449df57b1b0dd76b7e310eb3b834583",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769607292453,
+        "size": 2450
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Footer.jsx",
+        "hash": null,
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769267525924,
+        "size": 0
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Header.jsx",
+        "hash": "1a5caa9d978dfdf6a32c89cca3dc0d5c",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1769866783997,
+        "size": 6058
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\Layout\\Sidebar.jsx",
+        "hash": "ee54b9d215747dc2f881b7fa1d07e084",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770206177849,
+        "size": 11579
+      },
+      {
+        "file": "C:\\Users\\USER\\conta-certa\\src\\components\\relatorios\\RelatoriosPersonalizados.jsx",
+        "hash": "74d7569b196417ccf75f17281609cf30",
+        "imports": {},
+        "imported": {},
+        "importedBy": {},
+        "exports": {},
+        "reExportedBy": {},
+        "reExported": {},
+        "lastModified": 1770228266919,
+        "size": 2964
+      }
+    ]
+  },
+  "imageParentGraph": {
+    "imageGraph": {},
+    "unusedImages": []
+  }
+}
