@@ -8,7 +8,8 @@ const Sidebar = () => {
   const [expandedSections, setExpandedSections] = useState({
     financeira: true,
     operacional: true,
-    gestao: true
+    gestao: true,
+    configuracoes: true
   })
 
   const toggleSection = (section) => {
@@ -36,7 +37,7 @@ const Sidebar = () => {
     { icon: 'bi-percent', label: 'IVA/Impostos', path: '/iva-impostos', permission: 'IVA/Impostos' },
     { icon: 'bi-credit-card', label: 'Folha de Pagamento', path: '/folha-pagamento', permission: 'Folha de Pagamento' },
     // No Sidebar.jsx, procure esta linha (cerca da linha 39) e faça:
-    { icon: 'bi-gear', label: 'Configurações', path: '/configuracoes' }, // Remova: , permission: 'Configurações'
+    //{ icon: 'bi-gear', label: 'Configurações', path: '/configuracoes' }, // Remova: , permission: 'Configurações'
       ]
 
   // Menu operacional
@@ -55,9 +56,23 @@ const Sidebar = () => {
     { icon: 'bi-clipboard-data', label: 'Controlo de Gestão', path: '/controlo-gestao', permission: 'Controlo de Gestão' },
     { icon: 'bi-kanban', label: 'Projetos', path: '/projetos', permission: 'Projetos' },
     { icon: 'bi-phone', label: 'Mobile Access', path: '/mobile', permission: 'Mobile Access' },
-    { icon: 'bi-gear', label: 'Configurações', path: '/configuracoes', permission: 'Configurações' },
+    //{ icon: 'bi-gear', label: 'Configurações', path: '/configuracoes', permission: 'Configurações' },
     
   ]
+
+
+    // NOVA SEÇÃO: Configurações (movida para seu próprio grupo)
+  const configuracoesMenu = [
+    { icon: 'bi-gear', label: 'Configurações Gerais', path: '/configuracoes', permission: 'Configurações' },
+    { icon: 'bi-diagram-3', label: 'Módulos', path: '/configuracoes/modulos', permission: 'Configurações' },
+    { icon: 'bi-calculator', label: 'Plano de Contas', path: '/configuracoes/plano-contas', permission: 'Configurações' },
+    { icon: 'bi-file-text', label: 'Séries Documentos', path: '/configuracoes/series', permission: 'Configurações' },
+    { icon: 'bi-currency-exchange', label: 'Tipos Pagamento', path: '/configuracoes/tipos-pagamento', permission: 'Configurações' },
+    { icon: 'bi-percent', label: 'Taxas IVA', path: '/configuracoes/iva', permission: 'Configurações' },
+    { icon: 'bi-people', label: 'Terceiros Iniciais', path: '/configuracoes/terceiros', permission: 'Configurações' },
+  ]
+
+
 
   // Filtrar menus baseado nas permissões do usuário
   const filteredMainMenu = mainMenu.filter(item => 
@@ -75,6 +90,11 @@ const Sidebar = () => {
   const filteredManagementMenu = managementMenu.filter(item => 
     hasPermission(item.permission)
   )
+
+    const filteredConfiguracoesMenu = configuracoesMenu.filter(item => 
+    hasPermission(item.permission)
+  )
+
 
   // Função para obter badge de nível
   const getLevelBadge = () => {
@@ -258,6 +278,42 @@ const Sidebar = () => {
             )}
           </div>
         )}
+
+      {/* NOVA SEÇÃO: Configurações */}
+        {filteredConfiguracoesMenu.length > 0 && (
+          <div className="mb-4">
+            <div 
+              className="sidebar-section-title d-flex justify-content-between align-items-center mb-2 px-2 cursor-pointer"
+              onClick={() => toggleSection('configuracoes')}
+            >
+              <span className="text-uppercase small fw-bold opacity-75">
+                <i className="bi bi-gear-wide-connected me-2"></i>
+                Configurações
+              </span>
+              <i className={`bi ${expandedSections.configuracoes ? 'bi-chevron-up' : 'bi-chevron-down'}`}></i>
+            </div>
+            
+            {expandedSections.configuracoes && (
+              <nav className="nav flex-column">
+                {filteredConfiguracoesMenu.map((item) => (
+                  <NavLink
+                    key={item.path}
+                    to={item.path}
+                    className={({ isActive }) =>
+                      `sidebar-item nav-link py-2 px-3 rounded mb-1 d-flex align-items-center ps-4 ${
+                        isActive ? 'bg-secondary text-white' : 'text-light hover-bg'
+                      }`
+                    }
+                  >
+                    <i className={`bi ${item.icon} me-3`} style={{ width: '20px' }}></i>
+                    <span>{item.label}</span>
+                  </NavLink>
+                ))}
+              </nav>
+            )}
+          </div>
+        )}
+
 
         {/* Status do Sistema */}
         <div className="system-status mt-5 p-3 bg-dark bg-opacity-25 rounded">
