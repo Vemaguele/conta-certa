@@ -1,8 +1,8 @@
+// src/main.jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'  // ← Import default
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './styles/globals.css'
+import App from './App.jsx'
+import './styles/globals.css'  // Apenas seu CSS local
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

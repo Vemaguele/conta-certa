@@ -128,6 +128,14 @@ const AppRoutes = () => {
               <a href="/" className="btn btn-primary">
                 <i className="bi bi-house me-1"></i> Voltar ao Dashboard
               </a>
+              // Em qualquer componente (ex: App.jsx), adicione temporariamente:
+<div style={{ padding: '20px' }}>
+  <h3>Teste de Ícones:</h3>
+  <i className="bi bi-house-door"></i> Home<br/>
+  <i className="bi bi-gear"></i> Configurações<br/>
+  <i className="bi bi-people"></i> Clientes<br/>
+  <i className="bi bi-calculator"></i> Contabilidade<br/>
+</div>
             </div>
           </ProtectedLayout>
         </ProtectedRoute>
